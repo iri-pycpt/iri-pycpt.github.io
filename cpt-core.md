@@ -14,10 +14,18 @@ In the event that this somehow doesn't work, it is possible to manually install 
 A functional API is the core of CPT-CORE. This is a set of Python functions which implement entire CPT workflows at once. 
 
 ```cptcore.canonical_correlation_analysis(X, Y, F=F, **kwargs)``` is a function which implements CPT's CCA bias-correction. New settings have been added, when compared to legacy PyCPT, including SPI, Anomalies, and Y-Transformations. 
+
 ```cptcore.principal_components_regression(X, Y, F=F, **kwargs)``` is a function which implements CPT's PCR bias-correction. 
+
+
 ```cptcore.multiple_linear_regression(X, Y, F=F, **kwargs)``` is a function which implements CPT's MLR bias-correction. 
+
+
 ```cptcore.deterministic_skill(X, Y, **kwargs)``` is a function which implements CPT's deterministic skill scores. 
+
+
 ```cptcore.probabilistic_forecast_verification(X, Y, **kwargs)``` is a function which implements CPT's probabilistic skill scores. 
+
 
 
 
