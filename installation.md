@@ -2,6 +2,7 @@
 layout: page
 title: "Installing PyCPT"
 permalink: /installation/
+order: 2
 ---
 
 ## Installation
