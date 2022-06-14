@@ -2,6 +2,7 @@
 layout: page
 title: CPT-IO
 permalink: /cpt-io/
+order: 4
 ---
 
 ## CPT-IO
