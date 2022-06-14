@@ -1,3 +1,7 @@
+layout: page
+title: "installation"
+permalink: /installation/
+
 ## Installation
 
 PyCPT is packaged and distributed with [Anaconda](https://www.anaconda.com/products/distribution). You will need to download and install an Anaconda distribution of Python in order to use PyCPT. 
