@@ -35,7 +35,7 @@ GCM Data Cataloging is funded in part by:
  - SubX
  - S2S
 
-#### Lead Engineer & Designer: [Kyle Joseph Chen Hall](https://kjhall01.github.io/) 
+###### Lead Engineer & Designer: [Kyle Joseph Chen Hall](https://kjhall01.github.io/) 
 
 
 
