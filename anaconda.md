@@ -2,6 +2,7 @@
 layout: page
 title: "Anaconda Tips"
 permalink: /anaconda/
+order: 3
 ---
 
 ## Intro to Anaconda 
