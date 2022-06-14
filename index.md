@@ -2,7 +2,7 @@
 layout: page
 title: Home
 permalink: /
-order: 0
+order: 1
 ---
 
 ## PyCPT: The Python Interface to the Climate Predictability Tool (CPT)
