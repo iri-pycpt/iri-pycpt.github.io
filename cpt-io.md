@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CPT-IO
+title: CPT-IO & CPTv10 File Format
 permalink: /cpt-io/
 ---
 
