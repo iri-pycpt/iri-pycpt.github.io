@@ -30,15 +30,36 @@ replacing ```name_of_environment``` with the name of the environment to be insta
 
 ## Cheat Sheet: 
 
-**Creating a new environment:** ```conda create -n name_of_environment``` 
-**Adding extra channels:** ```conda create -c name_of_channel -n name_of_environment``` 
-**Activating an environment:** ```conda activate name_of_environment``` 
-**Deactivating an environment:** ```conda deactivate```
-**Installing into current environment:** ```conda install [-c name_of_channel] name_of_library``` 
-**Uninstalling a library in current environment:** ```conda uninstall name_of_library``` 
-**Upgrading libraries in current environment** ```conda upgrade name_of_library``` 
-**Adding an environment to jupyter notebook (requires installed libraries: jupyter, ipykernel):** ```python -m ipykernel install --user --name=name_of_environment``` 
-**Removing an environment from jupyter notebook:** ```jupyter kernelspec uninstall name_of_environment``` 
+```
+### Creating a new environment: 
+conda create -n name_of_environment
+
+### Adding extra channels: 
+conda create -c name_of_channel -n name_of_environment
+
+### Activating an environment:
+conda activate name_of_environment
+
+### Deactivating an environment:
+conda deactivate
+
+### Installing into current environment:
+conda install [-c name_of_channel] name_of_library
+
+### Uninstalling a library in current environment:
+conda uninstall name_of_library
+
+### Upgrading libraries in current environment:
+conda upgrade name_of_library``` 
+
+### Adding an environment to jupyter notebook (requires installed libraries: jupyter, ipykernel):
+python -m ipykernel install --user --name=name_of_environment
+
+### Removing an environment from jupyter notebook:
+jupyter kernelspec uninstall name_of_environment
+```
+
+
 
 ## PyCPT Quickstart: 
 
