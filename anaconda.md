@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "anaconda"
+title: "Anaconda Tips"
 permalink: /anaconda/
 ---
 
