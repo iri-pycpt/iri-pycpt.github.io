@@ -1,3 +1,9 @@
+---
+layout: page
+title: Home
+permalink: /
+order: 0
+---
 
 ## PyCPT: The Python Interface to the Climate Predictability Tool (CPT)
 
@@ -6,6 +12,7 @@ PyCPT is a set of python libraries designed to interface with CPT to facilitate 
 Maintainer: [Kyle J. C. Hall](https://kjhall01.github.io/) 
 
 
+## Citing PyCPTv2
 
 
 
