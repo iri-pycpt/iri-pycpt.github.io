@@ -1,1 +1,3 @@
 remote_theme: just-the-docs/just-the-docs
+title: PyCPT
+description: The Python Interface to the Climate Predictability Tool (CPT)
