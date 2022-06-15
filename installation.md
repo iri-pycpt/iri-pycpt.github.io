@@ -19,7 +19,7 @@ If Anaconda has installed correctly, the terminal prompt will be prefaced by ```
 
 ```
 conda create -c conda-forge -c hallkjc01 -n pycpt_environment pycpt
-conda activate pycpt 
+conda activate pycpt_environment
 python -m ipykernel install --user --name=pycpt_environment 
 jupyter notebook
 ```
