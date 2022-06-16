@@ -11,10 +11,17 @@ A python library for downloading climate model data and observations from the [I
 
 ## Usage
 
-CPT-DL stores pre-made Ingrid url templates in several python dictionaries, organized by purpose. ```cptdl.hindcasts``` stores urls designed for accessing GCM hindcasts and CPT training data, ```cptdl.observations``` stores urls designed for downloading observations data, and ```cptdl.forecasts``` stores urls designed for downloading individual GCM forecasts. You can view these template URLs [here](https://github.com/kjhall-iri/cpt-dl/blob/master/src/catalog.py).  
-If you look closely, these templates are designed to be python "F-Strings". F-Strings were introduced in Python 3.6 and allow for the dynamic evaluation of python code during string formatting. 
+CPT-DL stores pre-made Ingrid url templates in several python dictionaries, organized by purpose. 
 
-Dynamically evaluating f-strings is not intuitive, so ```cptdl``` implements a function called ```cptdl.evaluate_url```. ```cptdl.evaluate_url``` accepts arbitrary keyword arguments, and inserts them dynamically into the url template provided as the first positional argument, url. 
+```cptdl.hindcasts``` stores urls designed for accessing GCM hindcasts and CPT training data
+
+```cptdl.observations``` stores urls designed for downloading observations data
+
+```cptdl.forecasts``` stores urls designed for downloading individual GCM forecasts. You can view these template URLs [here](https://github.com/kjhall-iri/cpt-dl/blob/master/src/catalog.py). 
+
+
+
+If you look closely, these templates are designed to be python "F-Strings". F-Strings were introduced in Python 3.6 and allow for the dynamic evaluation of python code during string formatting. However, dynamically evaluating f-strings **themselves** is not a simple task, so ```cptdl``` implements a function called ```cptdl.evaluate_url```. ```cptdl.evaluate_url``` accepts arbitrary keyword arguments, and inserts them dynamically into the url template provided as the first positional argument, url. 
 
 Example: 
 
@@ -83,6 +90,10 @@ args = {
 
 # this returns an xarray dataarray: 
 da = dl.download(template, destination_file, verbose=True, **kwargs)  # verbose controls a progressbar 
+
+# and, if you have trouble with DLAuth setup and want to try to skip it, you can turn it off like this: 
+da = dl.download(template, destination_file, use_dlauth=False, verbose=True, **kwargs)  
+
 ```
   
 
