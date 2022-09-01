@@ -64,7 +64,7 @@ jupyter kernelspec uninstall name_of_environment
 ## PyCPT Quickstart: 
 
 ```
-conda create -c conda-forge -c hallkjc01 -n pycpt_env pycpt
+conda create -c iri-nextgen -c conda-forge -n pycpt_env pycpt
 conda activate pycpt_env
 python -m ipykernel install --user --name=pycpt_env 
 jupyter notebook
