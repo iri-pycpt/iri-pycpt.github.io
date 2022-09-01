@@ -18,7 +18,7 @@ If Anaconda has installed correctly, the terminal prompt will be prefaced by ```
 ## PyCPT Quickstart:
 
 ```
-conda create -c conda-forge -c hallkjc01 -n pycpt_environment pycpt
+conda create -c iri-nextgen -c conda-forge -n pycpt_environment pycpt
 conda activate pycpt_environment
 python -m ipykernel install --user --name=pycpt_environment 
 jupyter notebook
@@ -26,13 +26,13 @@ jupyter notebook
 
 Once you've executed the above, a jupyter notebook interface should start in a browser- you'll be able to start a new jupyter notebook file and run it under the "pycpt_environment" kernel.
 
-You can replace "pycpt_environment" with any aribtrary environment name-  if you wanted to name it after a specific project, or something, for example, you could use ```conda create -c conda-forge -c hallkjc01 -n lac_forecasts pycpt``` instead. ```pycpt``` is the name of the package - if you wanted additional packages, you could add them on the end, like this: 
+You can replace "pycpt_environment" with any aribtrary environment name-  if you wanted to name it after a specific project, or something, for example, you could use ```conda create -c conda-forge -c iri-nextgen -n lac_forecasts pycpt``` instead. ```pycpt``` is the name of the package - if you wanted additional packages, you could add them on the end, like this: 
 
 ```
-conda create -c conda-forge -c hallkjc01 -n pycpt_environment pycpt xarray scikit-learn tensorflow matplotlib
+conda create -c iri-nextgen -c conda-forge -n pycpt_environment pycpt
 ```
 
-```hallkjc01``` and ```conda-forge``` specify Anaconda [channels](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html) - just more places to look for the packages to download! More details on Anaconda environments [here](https://iri-pycpt.github.io/anaconda) 
+```iri-nextgen``` and ```conda-forge``` specify Anaconda [channels](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html) - just more places to look for the packages to download! More details on Anaconda environments [here](https://iri-pycpt.github.io/anaconda) 
 
 
 
