@@ -5,9 +5,9 @@ permalink: /
 order: 1
 ---
 
-## PyCPT v2: The Python Interface to the Climate Predictability Tool (CPT)
+## PyCPT 2: The Python Interface to the Climate Predictability Tool (CPT)
 
-PyCPT v2 is a set of python libraries designed to interface with CPT to facilitate operational climate forecasting and research in Python. It is the principal tool used to implement the IRI's "NextGen" approach to climate forecasting in partner countries around the world. In version two, PyCPT has been re-designed from the ground up, and packaged with Anaconda to lower the barriers to Python climate forecasting. 
+PyCPT 2 is a set of python libraries designed to interface with CPT to facilitate operational climate forecasting and research in Python. It is the principal tool used to implement the IRI's "NextGen" approach to climate forecasting in partner countries around the world. In version two, PyCPT has been re-designed from the ground up, and packaged with Anaconda to lower the barriers to Python climate forecasting. 
 
 PyCPT v2 is typically implemented in a ```Juypter Notebook```, which allows the user to visualize variables and data structures dynamically, and run code one step at a time. PyCPT Legacy could not be decoupled from ```Jupyter Notebook``` since it relied on ```ipython``` system commands. PyCPT version 2 is pure-python (except for CPT, of course), fully modular, and fully portable. Since it implements several things that might be very useful by themselves (downloading climate data, reading CPTv10 formatted files, running statistical analyses with CPT), these functionalities have been decoupled from on another and implemented as stand-alone python libraries in their own rights. The component libraries are: 
 
