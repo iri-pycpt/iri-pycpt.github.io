@@ -22,7 +22,7 @@ PyCPT v2 is typically implemented in a ```Juypter Notebook```, which allows the 
 
 [CPT-CORE](https://iri-pycpt.github.io/cpt-core) is a library which wraps and abstracts out the CPT fortran executable entirely. It eliminates the need for the user to struggle with compiling CPT, and turns it into an intuitive "functional API". It also provides lower-level support for customizing CPT workflows. 
 
-The PyCPT 2 GitHub code repository can be found here: https://github.com/iri-pycpt
+The PyCPT 2 GitHub code repository, including example Jupyter Notebooks, can be found here: https://github.com/iri-pycpt
 
 #### Acknowledgments: 
 
