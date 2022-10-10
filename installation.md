@@ -23,6 +23,11 @@ conda activate pycpt_environment
 python -m ipykernel install --user --name=pycpt_environment 
 jupyter notebook
 ```
+Note: To install on linux, the first line should be replaced by:
+
+```
+conda create -c iri-nextgen -c conda-forge -n pycpt_environment pycpt gfortran_linux-64 make
+```
 
 Once you've executed the above, a jupyter notebook interface should start in a browser- you'll be able to start a new jupyter notebook file and run it under the "pycpt_environment" kernel.
 
