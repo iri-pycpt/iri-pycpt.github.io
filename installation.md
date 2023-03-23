@@ -26,13 +26,18 @@ jupyter notebook
 
 Once you've executed the above, a jupyter notebook interface should start in a browser- you'll be able to start a new jupyter notebook file and run it under the "pycpt_environment" kernel.
 
-You can replace "pycpt_environment" with any aribtrary environment name-  if you wanted to name it after a specific project, or something, for example, you could use ```conda create -c conda-forge -c iri-nextgen -n lac_forecasts pycpt``` instead. ```pycpt``` is the name of the package - if you wanted additional packages, you could add them on the end, like this: 
+The meaning of the arguments of `conda create` are as follows:
 
-```
-conda create -c iri-nextgen -c conda-forge -n pycpt_environment pycpt
-```
+- `-c iri-nextgen -c conda-forge`: look for packages in the `iri-nextgen` and `conda-forge` [channels](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html). Without these options, the pycpt package and its dependencies would not be found, because they haven't been published to Anaconda's main channel.
+- `-n pycpt-environment`: specifies the name of the new conda environment you are creating. If an environment with that name already exists, you will be prompted to delete it first.
+- `pycpt`: the name of a package to install in the new environment. All of that package's dependencies will also be installed.
 
-```iri-nextgen``` and ```conda-forge``` specify Anaconda [channels](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html) - just more places to look for the packages to download! More details on Anaconda environments [here](https://iri-pycpt.github.io/anaconda) 
+## Updating from a previous version of PyCPT
+
+If you already have a conda environment with a working version of PyCPT installed, the safest way to upgrade to the latest version is to leave the existing environment as it is, and create a new environment using the same commands given above, but using a different environment name. That way, if the new version doesn't work for you, you can continue using the previous version. Once you're satisfied that the new version works, you can save space  by removing the old environment:
+```
+conda env remove -n old_environment
+```
 
 
 
