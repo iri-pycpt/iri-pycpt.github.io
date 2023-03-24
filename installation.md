@@ -20,7 +20,6 @@ If Anaconda has installed correctly, the terminal prompt will be prefaced by ```
 ```
 conda create -c iri-nextgen -c conda-forge -n pycpt_environment pycpt
 conda activate pycpt_environment
-python -m ipykernel install --user --name=pycpt_environment 
 jupyter notebook
 ```
 
@@ -29,7 +28,7 @@ Once you've executed the above, a jupyter notebook interface should start in a b
 The meaning of the arguments of `conda create` are as follows:
 
 - `-c iri-nextgen -c conda-forge`: look for packages in the `iri-nextgen` and `conda-forge` [channels](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html). Without these options, the pycpt package and its dependencies would not be found, because they haven't been published to Anaconda's main channel.
-- `-n pycpt-environment`: specifies the name of the new conda environment you are creating. If an environment with that name already exists, you will be prompted to delete it first.
+- `-n pycpt_environment`: specifies the name of the new conda environment you are creating. If an environment with that name already exists, you will be prompted to delete it first. Use a different name for the new environment if you want to keep the old one as a backup.
 - `pycpt`: the name of a package to install in the new environment. All of that package's dependencies will also be installed.
 
 ## Updating from a previous version of PyCPT
