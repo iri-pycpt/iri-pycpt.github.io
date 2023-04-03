@@ -13,9 +13,10 @@ Anaconda provides a self explanatory graphical installer- an application which w
 
 Once you have installed Anaconda open a terminal / command line application. If you're working on a MacOS machine, use the Terminal app; Windows users should use the Anaconda Prompt app, and linux users can use whichever command line application they normally use. 
 
-If Anaconda has installed correctly, the terminal prompt will be prefaced by ```(base)```- this is the name of the default Anaconda environment. Once you have properly installed Anaconda, you can create and activate a PyCPT anaconda environment, then add it as a Jupyter Kernel with these commands, at a command line: 
+If Anaconda has installed correctly, the terminal prompt will be prefaced by ```(base)```- this is the name of the default Anaconda environment. Once you have properly installed Anaconda, you can create and activate a PyCPT anaconda environment as described in the next section. 
 
 ## PyCPT Quickstart:
+In an Anaconda command shell:
 
 ```
 conda create -c iri-nextgen -c conda-forge -n pycpt_environment pycpt
