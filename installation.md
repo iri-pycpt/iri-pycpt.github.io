@@ -16,25 +16,22 @@ Once you have installed Anaconda open a terminal / command line application. If 
 If Anaconda has installed correctly, the terminal prompt will be prefaced by ```(base)```- this is the name of the default Anaconda environment. Once you have properly installed Anaconda, you can create and activate a PyCPT anaconda environment as described in the next section. 
 
 ## PyCPT Quickstart:
-In an Anaconda command shell:
+
+Download the lock file for your platform (Linux, Windows, or macOS/osx) from  https://github.com/iri-pycpt/notebooks/tree/master/Operations. For example, if using Windows, download https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-win-64.lock .
+
+Then in an Anaconda command shell:
 
 ```
-conda create -c iri-nextgen -c conda-forge -n pycpt_environment pycpt
+conda create -n pycpt_environment --file conda-win-64.lock
 conda activate pycpt_environment
 jupyter notebook
 ```
 
 Once you've executed the above, a jupyter notebook interface should start in a browser- you'll be able to start a new jupyter notebook file and run it under the "pycpt_environment" kernel.
 
-The meaning of the arguments of `conda create` are as follows:
-
-- `-c iri-nextgen -c conda-forge`: look for packages in the `iri-nextgen` and `conda-forge` [channels](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html). Without these options, the pycpt package and its dependencies would not be found, because they haven't been published to Anaconda's main channel.
-- `-n pycpt_environment`: specifies the name of the new conda environment you are creating. If an environment with that name already exists, you will be prompted to delete it first. Use a different name for the new environment if you want to keep the old one as a backup.
-- `pycpt`: the name of a package to install in the new environment. All of that package's dependencies will also be installed.
-
 ## Updating from a previous version of PyCPT
 
-If you already have a conda environment with a working version of PyCPT installed, the safest way to upgrade to the latest version is to leave the existing environment as it is, and create a new environment using the same commands given above, but using a different environment name. That way, if the new version doesn't work for you, you can continue using the previous version. Once you're satisfied that the new version works, you can save space  by removing the old environment:
+If you already have a conda environment with a working version of PyCPT installed, the safest way to upgrade to the latest version is to leave the existing environment as it is, and create a new environment using the same commands given above, but using a different environment name, e.g. `pycpt_environment2`. That way, if the new version doesn't work for you, you can continue using the previous version. Once you're satisfied that the new version works, you can save space  by removing the old environment:
 ```
 conda env remove -n old_environment
 ```
