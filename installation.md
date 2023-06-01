@@ -17,9 +17,13 @@ If Anaconda has installed correctly, the terminal prompt will be prefaced by ```
 
 ## PyCPT Quickstart:
 
-Download the lock file for your platform (Linux, Windows, or macOS/osx) from  https://github.com/iri-pycpt/notebooks/tree/master/Operations. For example, if using Windows, download https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-win-64.lock .
+Download the conda environment file for your platform:
 
-Then in an Anaconda command shell:
+- Windows: https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-win-64.lock
+- Linux: https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-linux-64.lock
+- Mac: https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-osx-64.lock
+
+Then in an Anaconda command shell, substituting the name of the lockfile downloaded in the previous step:
 
 ```
 conda create -n pycpt_environment --file conda-win-64.lock
