@@ -59,16 +59,21 @@ python -m ipykernel install --user --name=name_of_environment
 jupyter kernelspec uninstall name_of_environment
 ```
 
+## PyCPT Quickstart:
 
+Download the conda environment file for your platform:
 
-## PyCPT Quickstart: 
+- Windows: https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-win-64.lock
+- Linux: https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-linux-64.lock
+- Mac: https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-osx-64.lock
+
+Then in an Anaconda command shell, substituting the name of the lockfile downloaded in the previous step:
 
 ```
-conda create -c iri-nextgen -c conda-forge -n pycpt_env pycpt
-conda activate pycpt_env
-python -m ipykernel install --user --name=pycpt_env 
+conda create -n pycpt_environment --file conda-win-64.lock
+conda activate pycpt_environment
 jupyter notebook
-``` 
+```
 
-
+Once you've executed the above, a jupyter notebook interface should start in a browser- you'll be able to start a new jupyter notebook file and run it under the "pycpt_environment" kernel.
 
