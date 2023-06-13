@@ -19,7 +19,7 @@ If Anaconda has installed correctly, the terminal prompt will be prefaced by ```
 
 Download the conda environment file for your platform:
 
-- Windows: <a href="https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-linux-64.lock">conda-win-64.lock</a>
+- Windows: <a id="raw-url" href="https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-linux-64.lock">conda-win-64.lock</a>
 - Linux: <a href="https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-linux-64.lock">conda-linux-64.lock</a>
 - Mac: <a href="https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-osx-64.lock">conda-osx-64.lock</a>
 
