@@ -19,9 +19,11 @@ If Anaconda has installed correctly, the terminal prompt will be prefaced by ```
 
 Download the conda environment file for your platform:
 
-- Windows: https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-win-64.lock
-- Linux: https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-linux-64.lock
-- Mac: https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-osx-64.lock
+- Windows: <a href="https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-linux-64.lock">conda-win-64.lock</a>
+- Linux: <a href="https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-linux-64.lock">conda-linux-64.lock</a>
+- Mac: <a href="https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-osx-64.lock">conda-osx-64.lock</a>
+
+and copy it to your working directory.
 
 Then in an Anaconda command shell, substituting the name of the lockfile downloaded in the previous step:
 
