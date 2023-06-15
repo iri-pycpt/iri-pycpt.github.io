@@ -17,11 +17,13 @@ If Anaconda has installed correctly, the terminal prompt will be prefaced by ```
 
 ## PyCPT Quickstart:
 
-Download to your working directory the [notebook](https://github.com/iri-pycpt/notebooks/blob/master/Operations/pycpt-operational.ipynb), as well as the conda environment file for your platform:
+*Right click* to download the [notebook](https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/pycpt-operational.ipynb), as well as the conda environment file for your platform:
 
-- [Windows](https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-win-64.lock)
-- [Linux](https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-linux-64.lock)
-- [Mac](https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-osx-64.lock)
+- [Windows](https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-linux-64.lock)
+- [Linux](https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-linux-64.lock)
+- [Mac](https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-osx-64.lock)
+
+and move the two files (notebook and environment file) to your working directory.
 
 Then in an Anaconda command shell, substituting the name of the conda environment file downloaded in the previous step:
 
