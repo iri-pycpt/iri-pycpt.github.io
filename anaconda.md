@@ -18,16 +18,6 @@ Anaconda and Conda use an abstraction called an 'environment' to help the user k
 
 Each environment has a name, and must be created, and then activated. When you start a Python terminal inside a given environment, you only have access to the packages that have been installed into that environment. If you create a package, but don't activate it, you won't have access to its contents. 
 
-#### Adding an environment to Jupyter Notebook 
-
-In order to use a newly-created anaconda environment in a Jupyter Notebook setting, you need to add it to Jupyter as a "kernel" (For this purpose, "kernel" is synonymous with "environment"). To do that, you need to have installed the ```ipykernel``` and ```jupyter``` python libraries within the desired environment. You must then run: 
-
-```
-python -m ipykernel install --user --name=name_of_environment
-```
-
-replacing ```name_of_environment``` with the name of the environment to be installed. Once that's done, start a jupyter notebook server by running ```jupyter notebook```, and create a juypter notebook file (.ipynb) with the newly added kernel.
-
 ## Cheat Sheet: 
 
 ```
@@ -48,32 +38,8 @@ conda install [-c name_of_channel] name_of_library
 
 ### Uninstalling a library in current environment:
 conda uninstall name_of_library
-
-### Upgrading libraries in current environment:
-conda upgrade name_of_library``` 
-
-### Adding an environment to jupyter notebook (requires installed libraries: jupyter, ipykernel):
-python -m ipykernel install --user --name=name_of_environment
-
-### Removing an environment from jupyter notebook:
-jupyter kernelspec uninstall name_of_environment
 ```
 
 ## PyCPT Quickstart:
 
-Download the conda environment file for your platform:
-
-- Windows: https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-win-64.lock
-- Linux: https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-linux-64.lock
-- Mac: https://github.com/iri-pycpt/notebooks/blob/master/Operations/conda-osx-64.lock
-
-Then in an Anaconda command shell, substituting the name of the lockfile downloaded in the previous step:
-
-```
-conda create -n pycpt_environment --file conda-win-64.lock
-conda activate pycpt_environment
-jupyter notebook
-```
-
-Once you've executed the above, a jupyter notebook interface should start in a browser- you'll be able to start a new jupyter notebook file and run it under the "pycpt_environment" kernel.
-
+See [Installation Instructions](https://iri-pycpt.github.io/installation/)
