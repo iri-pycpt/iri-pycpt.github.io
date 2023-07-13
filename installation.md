@@ -19,7 +19,7 @@ If Anaconda has installed correctly, the terminal prompt will be prefaced by ```
 
 *Right click* to download the [notebook](https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/pycpt-operational.ipynb), as well as the conda environment file for your platform:
 
-- [Windows](https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-linux-64.lock)
+- [Windows](https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-win-64.lock)
 - [Linux](https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-linux-64.lock)
 - [Mac](https://raw.githubusercontent.com/iri-pycpt/notebooks/master/Operations/conda-osx-64.lock)
 
