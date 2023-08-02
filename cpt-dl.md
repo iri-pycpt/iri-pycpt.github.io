@@ -72,7 +72,7 @@ import cptdl as dl
 import datetime as dt
 template = dl.hindcasts['CanSIPSv2.PRCP']
 destination_file = "cansips_prcp.tsv" 
-args = { 
+kwargs = { 
   'fdate': dt.datetime.now(),
   'first_year': 1982, 
   'final_year': 2018, 
