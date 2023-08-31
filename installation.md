@@ -7,13 +7,11 @@ order: 2
 
 ## Installation
 
-PyCPT is packaged and distributed with [Anaconda](https://www.anaconda.com/products/distribution). You will need to download and install an Anaconda distribution of Python in order to use PyCPT. 
+In order to install PyCPT you will first need to install a software package management tool called conda. If you don't have conda yet, see our [conda page](anaconda.md).
 
-Anaconda provides a self explanatory graphical installer- an application which will guide you through the steps necessary to install the Anaconda command line interface. 
+Once you have installed conda, open a terminal (command line application). If you're working on a MacOS machine, use the Terminal app; Windows users should use the Anaconda Prompt app, and linux users can use whichever command line application they normally use. 
 
-Once you have installed Anaconda open a terminal / command line application. If you're working on a MacOS machine, use the Terminal app; Windows users should use the Anaconda Prompt app, and linux users can use whichever command line application they normally use. 
-
-If Anaconda has installed correctly, the terminal prompt will be prefaced by ```(base)```- this is the name of the default Anaconda environment. Once you have properly installed Anaconda, you can create and activate a PyCPT anaconda environment as described in the next section. 
+If conda has installed correctly, the terminal prompt will be prefaced by ```(base)```- this is the name of the default conda environment. Once you have properly installed conda, you can create and activate a PyCPT conda environment as described in the next section. 
 
 ## PyCPT Quickstart:
 
