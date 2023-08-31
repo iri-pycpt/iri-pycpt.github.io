@@ -5,27 +5,27 @@ permalink: /anaconda/
 order: 3
 ---
 
-## Intro to Anaconda 
+## Intro to conda
 
-[Anaconda](https://anaconda.org) is a commonly used, open-source package manager. It is used to download and install Python libraries and their dependencies, both compiled and pure-python. 
-Anaconda's command line interface (CLI) is referred to as "Conda" and is accessible, once installed through the installer available [here](https://www.anaconda.com/products/distribution), in the command line through the ```conda``` utility. 
+Conda is an open-source package manager. It is used to download and install Python libraries and their dependencies, both compiled and pure-python.
+In order to install PyCPT, you must first install conda. If you don't already have it, download and run the [miniconda installer](https://docs.conda.io/projects/miniconda/en/latest/). If you have already installed the full Anaconda distribution, you can use that instead of miniconda. Miniconda is just a smaller download that omits extra packages that we don't need.
 
-Note: Windows users should use the ```Anaconda Prompt``` terminal application - standard cmd.exe will not give you the full functionality of Anaconda. 
+Once installed, conda is available in the command line through the ```conda``` utility. 
+Note: Windows users should use the `Anaconda Prompt` terminal application -- standard `cmd.exe` will not give you the full functionality of conda. 
 
 #### Environments
 
-Anaconda and Conda use an abstraction called an 'environment' to help the user keep track of what packages are installed where. For conda, an environment means "a set of installed command line utilities, programming languages and Python libraries". Environments are different if the packages they contain are different, or if their versions are different. You can think of an environment as, effectively, a set of installed Python libraries. 
+Conda uses an abstraction called an 'environment' to help the user keep track of what packages are installed where. For conda, an environment means "a set of installed command line utilities, programming languages and Python libraries". Environments are different if the packages they contain are different, or if their versions are different. You can think of an environment as, effectively, a set of installed Python libraries. 
 
 Each environment has a name, and must be created, and then activated. When you start a Python terminal inside a given environment, you only have access to the packages that have been installed into that environment. If you create a package, but don't activate it, you won't have access to its contents. 
+
+Conda downloads packages from one or more "channels." There is a base set of channels that are available by default, and you can enable other channels by adding them to the command line.
 
 ## Cheat Sheet: 
 
 ```
 ### Creating a new environment: 
 conda create -n name_of_environment
-
-### Adding extra channels: 
-conda create -c name_of_channel -n name_of_environment
 
 ### Activating an environment:
 conda activate name_of_environment
