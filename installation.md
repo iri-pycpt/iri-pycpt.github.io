@@ -17,7 +17,7 @@ If Anaconda has installed correctly, the terminal prompt will be prefaced by ```
 
 ## PyCPT Quickstart:
 
-Download the [notebook](https://github.com/iri-pycpt/notebooks/releases/latest/download/pycpt-operational.ipynb), as well as the conda environment file for your platform:
+Download the notebook ([seasonal](https://github.com/iri-pycpt/notebooks/releases/latest/download/pycpt-operational.ipynb) or [subseasonal](https://github.com/iri-pycpt/notebooks/releases/latest/download/pycpt-s2s.ipynb)), as well as the conda environment file for your platform:
 
 - [Windows](https://github.com/iri-pycpt/notebooks/releases/latest/download/conda-win-64.lock)
 - [Linux](https://github.com/iri-pycpt/notebooks/releases/latest/download/conda-linux-64.lock)
