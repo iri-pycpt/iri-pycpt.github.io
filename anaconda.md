@@ -8,7 +8,9 @@ order: 3
 ## Intro to conda
 
 Conda is an open-source package manager. It is used to download and install Python libraries and their dependencies, both compiled and pure-python.
-In order to install PyCPT, you must first install conda. If you don't already have conda, download and run the [miniconda installer](https://docs.conda.io/projects/miniconda/en/latest/). (If you have already installed the full Anaconda distribution, you can use that instead of miniconda.)
+In order to install PyCPT, you must first install conda. If you don't already have conda, download and run the [miniconda installer](https://docs.conda.io/projects/miniconda/en/latest/) for your operating system. If you're using Windows 10 or earlier and you don't know whether to use the 32-bit or 64-bit version, see the [Microsoft FAQ](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d). For Windows 11, use the 64-bit version.
+
+If you have previously installed the full Anaconda distribution, you can use that instead of miniconda.
 
 Once installed, conda is available on the command line. 
 Note: Windows users should use the `Anaconda Prompt` terminal application -- standard `cmd.exe` will not give you the full functionality of conda. 
