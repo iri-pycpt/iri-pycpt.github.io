@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Authentication: downloading protected data"
+permalink: /authentication/
+---
+
 # Configuring PyCPT for authenticated download of private data
 
 Most of the datasets in the IRI Data Library can be downloaded without logging in, but there are also private datasets that are available only to authorized users.
