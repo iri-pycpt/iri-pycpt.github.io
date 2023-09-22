@@ -6,10 +6,7 @@ permalink: /cpt-core/
 
 ## CPT-CORE 
 
-CPT-CORE is the analytical engine of PyCPT- it manages the input and output of CPT in such a way that the user never has to deal with output files or bash scripting, if they don't want to. 
-It comes with a pre-compiled version of CPT, for MacOS and Linux Users. For Windows users, on the first instantiation of a ```cptcore.CPT()``` object, the windows installer will run, and automatically install CPT. 
-
-In the event that this somehow doesn't work, it is possible to manually install a working version of CPT and then move it to the proper location for CPT-CORE to find. 
+CPT-CORE is the analytical engine of PyCPT- it manages the input and output of CPT in such a way that the user never has to deal with output files or bash scripting, if they don't want to.
 
 A functional API is the core of CPT-CORE. This is a set of Python functions which implement entire CPT workflows at once. 
 
