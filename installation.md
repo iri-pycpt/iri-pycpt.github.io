@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Installing PyCPT"
+title: "Installing PyCPT 2.7.2"
 permalink: /installation/
 order: 2
 ---
@@ -15,19 +15,19 @@ If conda has installed correctly, the terminal prompt will be prefaced by ```(ba
 
 ## PyCPT Quickstart:
 
-Download the notebook ([seasonal](https://github.com/iri-pycpt/notebooks/releases/latest/download/pycpt-operational.ipynb) or [subseasonal](https://github.com/iri-pycpt/notebooks/releases/latest/download/pycpt-s2s.ipynb)), as well as the conda environment file for your platform:
+Download the notebook ([seasonal](https://github.com/iri-pycpt/notebooks/releases/download/v2.7.2/pycpt-operational.ipynb) or [subseasonal](https://github.com/iri-pycpt/notebooks/releases/download/v2.7.2/pycpt-s2s.ipynb)), as well as the conda environment file for your platform:
 
-- [Windows](https://github.com/iri-pycpt/notebooks/releases/latest/download/conda-win-64.lock)
-- [Linux](https://github.com/iri-pycpt/notebooks/releases/latest/download/conda-linux-64.lock)
-- [Mac](https://github.com/iri-pycpt/notebooks/releases/latest/download/conda-osx-64.lock)
+- [Windows](https://github.com/iri-pycpt/notebooks/releases/download/v2.7.2/conda-win-64.lock)
+- [Linux](https://github.com/iri-pycpt/notebooks/releases/download/v2.7.2/conda-linux-64.lock)
+- [Mac](https://github.com/iri-pycpt/notebooks/releases/download/v2.7.2/conda-osx-64.lock)
 
 and move the two files (notebook and environment file) to your working directory.
 
 Then in an Anaconda command shell, substituting the name of the conda environment file downloaded in the previous step:
 
 ```
-conda create -n pycpt_environment --file conda-win-64.lock
-conda activate pycpt_environment
+conda create -n pycpt-2.7.2 --file conda-win-64.lock
+conda activate pycpt-2.7.2
 jupyter notebook
 ```
 
@@ -35,9 +35,9 @@ Once you've executed the above, a Jupyter Notebook interface should start in a b
 
 ## Updating from a previous version of PyCPT
 
-If you already have a conda environment with a working version of PyCPT installed, the safest way to upgrade to the latest version is to leave the existing environment as it is, and create a new environment using the same commands given above, but using a different environment name, e.g. `pycpt_environment2`. That way, if the new version doesn't work for you, you can continue using the previous version. Once you're satisfied that the new version works, you can save space  by removing the old environment:
+If you already have a conda environment with a working version of PyCPT installed, the safest way to upgrade to the latest version is to leave the existing environment as it is, and create a new environment using the same commands given above, but with the new version number. That way, if the new version doesn't work for you, you can continue using the previous version. Once you're satisfied that the new version works, you can save space  by removing the old environment:
 ```
-conda env remove -n old_environment
+conda env remove -n pycpt-2.5.0
 ```
 
 
