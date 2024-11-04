@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: CPT-IO
 permalink: /cpt-io/
 order: 4
