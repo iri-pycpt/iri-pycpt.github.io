@@ -17,9 +17,11 @@ The PyCPT 2 GitHub code repositories, including example Jupyter Notebooks, can b
 
 #### Acknowledgments: 
 
-PyCPT development is funded in part by: 
+PyCPT development is funded in part by:
  - Columbia World Projects - ACToday
- - World Bank - AICCRA 
+ - United Nations World Food Programme
+ - World Bank - AICCRA
+ - World Meteorological Organization - ENANDES (Enhancing Adaptive Capacity of Andean Communities through Climate Services)
 
 GCM Data Cataloging is funded in part by: 
  - The North American Multi-Model Ensemble (NMME) Project
