@@ -1,6 +1,6 @@
 ---
-layout: default
-title: CPT-IO
+layout: page
+title: "CPT-IO"
 permalink: /cpt-io/
 order: 4
 ---
