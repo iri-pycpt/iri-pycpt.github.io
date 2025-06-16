@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Installing PyCPT 2.10.0"
+title: "Installing PyCPT 2.10.1"
 permalink: /installation/
 order: 2
 ---
@@ -15,19 +15,19 @@ If conda has installed correctly, the terminal prompt will be prefaced by ```(ba
 
 ## PyCPT Quickstart:
 
-Download the notebook ([seasonal](https://github.com/iri-pycpt/notebooks/releases/download/v2.10.0/pycpt-operational.ipynb) or [subseasonal](https://github.com/iri-pycpt/notebooks/releases/download/v2.10.0/pycpt-s2s.ipynb)), as well as the conda environment file for your platform:
+Download the notebook ([seasonal](https://github.com/iri-pycpt/notebooks/releases/download/v2.10.1/pycpt-operational.ipynb) or [subseasonal](https://github.com/iri-pycpt/notebooks/releases/download/v2.10.1/pycpt-s2s.ipynb)), as well as the conda environment file for your platform:
 
-- [Windows](https://github.com/iri-pycpt/notebooks/releases/download/v2.10.0/conda-win-64.lock)
-- [Linux](https://github.com/iri-pycpt/notebooks/releases/download/v2.10.0/conda-linux-64.lock)
-- [Mac](https://github.com/iri-pycpt/notebooks/releases/download/v2.10.0/conda-osx-64.lock)
+- [Windows](https://github.com/iri-pycpt/notebooks/releases/download/v2.10.1/conda-win-64.lock)
+- [Linux](https://github.com/iri-pycpt/notebooks/releases/download/v2.10.1/conda-linux-64.lock)
+- [Mac](https://github.com/iri-pycpt/notebooks/releases/download/v2.10.1/conda-osx-64.lock)
 
 and move the two files (notebook and environment file) to your working directory.
 
 Then in an Anaconda command shell, substituting the name of the conda environment file downloaded in the previous step:
 
 ```
-conda create -n pycpt-2.10.0 --file conda-win-64.lock
-conda activate pycpt-2.10.0
+conda create -n pycpt-2.10.1 --file conda-win-64.lock
+conda activate pycpt-2.10.1
 jupyter notebook
 ```
 
