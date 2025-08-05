@@ -18,13 +18,13 @@ CPT-IO can be installed through anaconda's package manager, ```conda``` which ca
 once you have conda installed, cpt-io and most other python packages can be installed with the following command: 
 
 ```
-conda install -c conda-forge -c hallkjc01 cptio
+conda install -c conda-forge -c iri-nextgen cptio
 ```
 
 it is, however, highly recommended that you use Anaconda environments to manage your python packages. In that case, you would use: 
 
 ```
-conda create -c conda-forge -c hallkjc01 -n environment_name cptio
+conda create -c conda-forge -c iri-nextgen -n environment_name cptio
 ```
 
 to install cpt-io. 
